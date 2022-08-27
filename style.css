@@ -1,4 +1,4 @@
-.header{
+.header {
     text-align: center;
     border: 10px solid lawngreen;
     padding: 50px;
@@ -8,21 +8,38 @@ h1 {
     font-size: 60px;
 }
 
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: 650px;
+}
+
 .form {
-    width: 50%;
-    height: 100px;
+    width: 40%;
+    
     border: 10px solid red;
 }
 
 .card {
-    width: 50%;
+    width: 40%;
     border: 10px solid blue;
+    padding: 2px 15px 15px;
+    display: flex;
+    gap: 10px;
 }
 
-.card-header {
-    border: 10px solid purple;
+.purple {
+    border: 8px solid purple;
+    height: 60px;
+    padding: 5px;
 }
 
 .yellow {
-    border: 10px solid yellow;
+    border: 8px solid yellow;
+    padding: 5px;
+    height: 90%;
 }
+
