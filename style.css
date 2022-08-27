@@ -1,0 +1,28 @@
+.header{
+    text-align: center;
+    border: 10px solid lawngreen;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.form {
+    width: 50%;
+    height: 100px;
+    border: 10px solid red;
+}
+
+.card {
+    width: 50%;
+    border: 10px solid blue;
+}
+
+.card-header {
+    border: 10px solid purple;
+}
+
+.yellow {
+    border: 10px solid yellow;
+}
